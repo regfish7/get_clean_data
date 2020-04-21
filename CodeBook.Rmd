@@ -86,4 +86,4 @@ Finally, all rows with the same Subject and Activity label (columns 1 and 2, res
 tidy_data = aggregate(subset_data, by= list(subset_data$subject,subset_data$activity),FUN = mean)
 ```
 
-The rows were then sorted in chronological order of subject and exported to a .csv file. 
+The rows were then sorted in chronological order of subject and exported to a .txt file. 

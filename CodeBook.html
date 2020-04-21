@@ -245,7 +245,7 @@ subset_data$activity &lt;- activity_labels[match(subset_data$activity, activity_
 <p>Then, the feature (variable) names were cleaned to be made more descriptive, by removing puncuation and expanding the prefixes “t” and “f” to be “Time” and “Freq”, respectively.</p>
 <p><strong>Aggregating</strong> Finally, all rows with the same Subject and Activity label (columns 1 and 2, respectively) were aggregated together by taking the mean of the corresponding measurements.</p>
 <pre class="r"><code>tidy_data = aggregate(subset_data, by= list(subset_data$subject,subset_data$activity),FUN = mean)</code></pre>
-<p>The rows were then sorted in chronological order of subject and exported to a .csv file.</p>
+<p>The rows were then sorted in chronological order of subject and exported to a .txt file.</p>
 </div>
 
 

@@ -78,4 +78,4 @@ tidy_data <- tidy_data[order(tidy_data$Subject),]
 row.names(tidy_data) <- 1:nrow(tidy_data)
 
 ## Export the dataset
-write.csv(tidy_data, file = 'tidydata.csv',row.names=FALSE)
+write.table(tidy_data, file = 'tidydata.txt',row.names=FALSE)

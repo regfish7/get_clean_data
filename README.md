@@ -18,7 +18,7 @@ This repository contains the following files:
 * README.md
 * run_analysis.R
 * CodeBook.md
-* tidydata.csv
+* tidydata.txt
  
  The descriptions of the files are as follows:
  
@@ -30,6 +30,6 @@ This repository contains the following files:
     * Extracting only the data points that give the mean and standard deviation of each measurement
     * Renaming the activities and variables to be more descriptive
     * Creating a second tidy data set with the average of each variable for each activity and each subject. 
- * *CodeBook.md*: This code book describes the variables, the data, and the transformations used to produced tidydata.csv, the cleaned data. 
- * *tidydata.csv*: The tidy dataset produced in run_analysis.R. Each row represents the average readings for each measurement for a given subject and activity. 
+ * *CodeBook.md*: This code book describes the variables, the data, and the transformations used to produced tidydata.txt, the cleaned data. 
+ * *tidydata.txt*: The tidy dataset produced in run_analysis.R. Each row represents the average readings for each measurement for a given subject and activity. 
  
